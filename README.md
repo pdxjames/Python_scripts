@@ -1,2 +1,2 @@
 # Python_scripts
-Silly python scripts I've made while learning Python
+(Mostly) sillh Python scripts I've made while learning Python.
