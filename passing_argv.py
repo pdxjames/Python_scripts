@@ -19,7 +19,7 @@ computer = raw_input(prompt)
 print "And what sort of music do you like?"
 music = raw_input(prompt)
 
-print "Last question %s. Do you find me interesting?" % user_name
+print "Last question %s. Do you find this interesting?" % user_name
 likes = raw_input(prompt)
 
 print """
