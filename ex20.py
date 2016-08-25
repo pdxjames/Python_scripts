@@ -37,11 +37,7 @@ print_a_line(current_line, current_file)
 current_line = current_line + 1					# adding one to the NEW current line
 print_a_line(current_line, current_file)
 
-#=======
-
-en
-conf t
-hostname CHANGEME
+#eof
 
 
 
