@@ -1,5 +1,7 @@
-print "Let's practice everything."
+print "\n\nLet's practice everything."
 print 'You\'d need to know \'bout escapes with \\ that do \n newlines and \t tabs.'
+
+print "\n\nHere's some text. \nHere's some text on a newline. \n\tHere's some text on a newline and indented with a tab.\n\n" 
 
 poem = """      
 \tThe lovely world
@@ -33,7 +35,7 @@ def secret_formula(xyz):
 
 #======================================
 
-print "Please enter a number between 0 and 1000000 below.\n"
+print "Please enter a positive whole number between 0 and 1 million below.\n"
 n = int(raw_input('==>'))
 start_point = n
 #ok james, as an experiment, lets make n = startpoint. I think it will break things.
@@ -43,11 +45,12 @@ start_point = n
 #so putting it back to be correct
 #n = start_point
 
-print "\n==="
-print n
-print "==="
+#this is for trouble-shooting
+#print "\n==="
+#print n
+#print "==="
 
-#start_point = raw_input("Choose a number between 0 and one million: ")
+#start_point = raw_input("Enter a positive whole number between 0 and 1 million: ")
 beans, jars, crates, = secret_formula(start_point)
 
 print "\nWith a starting point of: %d" % start_point
@@ -59,14 +62,18 @@ print "\n\nWe can also do that this way:"
 print "We'd have %d beans, %d jars, and %d crates." % secret_formula(start_point)
 
 print "\n--------------"
-print "Minor victories. still confused about how to pass vars in functions. I'll try some more.\n"
- 
+print "And here's the color breakdown:" 
+
 def colors():
-    red = jelly_beans * .5
-    yellow = jelly_beans * .25
-    green = jelly_beans * .125
-    blue = jelly_beans * .125
-    print "\nHmmm... looks like we have %d red jelly beans, %d yellows, %d greens, and %d blue ones." % (red, yellow, green, blue)
+    red = jelly_beans * .435
+    yellow = jelly_beans * .278
+    green = jelly_beans * .163
+    blue = jelly_beans * .124
+    print "\nHmmm... looks like we have %d red jelly beans, %d yellows, %d greens, and %d blue ones.\n\n" % (red, yellow, green, blue)
+
+jelly_beans = start_point
+#print start_point  (used for trouble-shooting)
+#print jelly_beans  (used for trouble-shooting)
 
 colors()
 #eof
