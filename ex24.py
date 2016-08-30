@@ -18,7 +18,14 @@ print "--------------"
 
 five = 10 - 2 + 3 - 6
 print "This should be five: %s" % five
-print "\n\n------------"
+print "\n--------------"
+
+#received my email from PyMOTW 3, which discussed the pydoc test module. Cool!
+#so looked at the examples there and thought I'd try it here.
+#putting this broken code in to test it
+seven = 10 - 4 + 39
+print "This should be eight: %s" % seven
+print "\n--------------"
 
 #yeah, I get it, we're defining the function 'secret formula' here AND passing the var called 'started'
 #this took me a bit. vars are usually called x or y, but I suppose abc, or a134, or starabc, or started
@@ -32,6 +39,7 @@ def secret_formula(xyz):
     jars = jelly_beans / 1000
     crates = jars / 100
     return jelly_beans, jars, crates
+
 #======================================
 
 print "Please enter a positive whole number between 0 and 1 million below.\n"
@@ -64,15 +72,24 @@ print "\n--------------"
 print "And here's the color breakdown:" 
 
 def colors():
-    red = jelly_beans * .435
-    yellow = jelly_beans * .278
-    green = jelly_beans * .163
-    blue = jelly_beans * .124
+    red = jelly_beans * 43.5
+    yellow = jelly_beans * 27.8
+    green = jelly_beans * 16.3
+    blue = jelly_beans * 12.4
     print "\nHmmm... looks like we have %d red jelly beans, %d yellows, %d greens, and %d blue ones.\n\n" % (red, yellow, green, blue)
 
+print "Yo! This is the right version."
+
 jelly_beans = start_point
-#print start_point  (used for trouble-shooting)
-#print jelly_beans  (used for trouble-shooting)
+#print start_point   #used for trouble-shooting
+#print jelly_beans   #used for trouble-shooting
 
 colors()
+
+#adding doctest for practice
+
+if __name__ == "__main__":
+    import doctest
+    doctest.testmod()
+
 #eof
