@@ -32,7 +32,6 @@ def secret_formula(xyz):
     jars = jelly_beans / 1000
     crates = jars / 100
     return jelly_beans, jars, crates
-
 #======================================
 
 print "Please enter a positive whole number between 0 and 1 million below.\n"
