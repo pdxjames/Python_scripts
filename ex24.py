@@ -26,6 +26,7 @@ print "\n--------------"
 seven = 10 - 4 + 39
 print "This should be eight: %s" % seven
 print "\n--------------"
+#abandoned work on doctest for now. Will come back to it. Good to know it's out there!
 
 #yeah, I get it, we're defining the function 'secret formula' here AND passing the var called 'started'
 #this took me a bit. vars are usually called x or y, but I suppose abc, or a134, or starabc, or started
@@ -87,7 +88,6 @@ jelly_beans = start_point
 colors()
 
 #adding doctest for practice
-
 if __name__ == "__main__":
     import doctest
     doctest.testmod()
