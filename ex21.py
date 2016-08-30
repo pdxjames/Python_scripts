@@ -28,8 +28,8 @@ print "--------------------------------------------"
 print "\nHere is a puzzle for you:"
 
 what = add(age, subtract(height, multiply(weight, divide(iq, 2))))
-# what is the function of add (with the vars 'age' as the first, and the second var inside add
-# as the function called multiply. Now... 'multiply' is also a function, an we pass it a var
+# 'what' is the function of add (with the vars 'age' as the first var, and the second var inside add
+# as the function called multiply. Now... 'multiply' is also a function, and we pass it a var
 # along with a function as the second variable. cool! :)
 
 print "That becomes: ", what, "Can you do it by hand?"
