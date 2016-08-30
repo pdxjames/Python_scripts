@@ -1,4 +1,7 @@
 #random number generator
+#figured there was a rng module but built my own. 
+#YES, I know this really isn't an rng but it was fun to build something.
+
 print ""
 print "Welcome to my random number generator."
 print "-----------"*3
